@@ -4,7 +4,7 @@ public class MultiplyNumbers {
         public static void getDivision(float c ,float d)
 	{
 		float div = c/d;
-		System.out.println("Division is:"+div)
+		System.out.println("Division is:"+div);
 	}
 	public static void main(String args[]) {
 
@@ -14,9 +14,9 @@ public class MultiplyNumbers {
 		System.out.println(Result);
 		//Addinng the another functionality as division of numbers
 	      Scanner sobj = new Scanner(System.in);
-		System.out.println("Enter first number:")
+		System.out.println("Enter first number:");
 			float c =sobj.nextFloat();
-		System.out.println("Enter second number:")
+		System.out.println("Enter second number:");
 			float d = sobj.nextFloat();
 		getDivision(c,d);
 	}
