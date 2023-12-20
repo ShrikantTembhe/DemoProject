@@ -15,8 +15,8 @@ public class FactorsOfNumber {
 	}
 	public static void main(String args[]) {
 		Scanner sobj = new Scanner(System.in);
-		System.out.println("Enter any number to find factors:");
-		int num = sobj.nextInt();
-		numberFactor(num);
+		System.out.println("Enter any digit to find factors:");
+		int digit = sobj.nextInt();
+		numberFactor(digit);
 	}
 }
